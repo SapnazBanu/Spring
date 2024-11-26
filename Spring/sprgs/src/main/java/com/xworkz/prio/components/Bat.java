@@ -11,6 +11,7 @@ public class Bat {
     public Bat()
     {
         System.out.println("Bat created");
+
     }
 
 }
