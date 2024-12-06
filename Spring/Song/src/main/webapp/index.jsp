@@ -10,5 +10,6 @@
 <a href="OrganDonation.jsp">OrganDonationForm</a><br>
 <a href="Matrimony.jsp">Matrimony Form</a><br>
 <a href="Scholarship.jsp">Scholarship Form</a><br>
+<a href="DeathCertificate.jsp">Death Certificate Form</a><br>
 </body>
 </html>
