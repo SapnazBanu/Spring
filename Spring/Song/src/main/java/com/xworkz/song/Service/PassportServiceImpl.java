@@ -1,7 +1,9 @@
 package com.xworkz.song.Service;
 
 import com.xworkz.song.DTO.PassportDTO;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PassportServiceImpl implements PassportService{
     public PassportServiceImpl()
     {
