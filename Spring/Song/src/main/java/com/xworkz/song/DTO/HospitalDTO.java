@@ -1,4 +1,4 @@
-package com.xworkz.song.DTO;
+package com.xworkz.song.dto;
 
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;

@@ -1,6 +1,6 @@
 package com.xworkz.song.components;
 
-import com.xworkz.song.DTO.OrganDonationDTO;
+import com.xworkz.song.dto.OrganDonationDTO;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

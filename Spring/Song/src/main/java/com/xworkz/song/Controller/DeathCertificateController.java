@@ -1,7 +1,7 @@
-package com.xworkz.song.Controller;
+package com.xworkz.song.controller;
 
-import com.xworkz.song.DTO.DeathCertificateDTO;
-import com.xworkz.song.Service.DeathCertificateService;
+import com.xworkz.song.dto.DeathCertificateDTO;
+import com.xworkz.song.service.DeathCertificateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

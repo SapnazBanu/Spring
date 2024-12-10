@@ -1,6 +1,6 @@
-package com.xworkz.song.Service;
+package com.xworkz.song.service;
 
-import com.xworkz.song.DTO.DeathCertificateDTO;
+import com.xworkz.song.dto.DeathCertificateDTO;
 import org.springframework.stereotype.Service;
 
 @Service

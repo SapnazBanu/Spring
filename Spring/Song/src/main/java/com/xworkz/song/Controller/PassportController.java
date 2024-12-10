@@ -1,7 +1,7 @@
-package com.xworkz.song.Controller;
+package com.xworkz.song.controller;
 
-import com.xworkz.song.DTO.PassportDTO;
-import com.xworkz.song.Service.PassportService;
+import com.xworkz.song.dto.PassportDTO;
+import com.xworkz.song.service.PassportService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

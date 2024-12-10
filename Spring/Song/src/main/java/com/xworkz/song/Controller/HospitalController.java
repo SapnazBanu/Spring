@@ -1,7 +1,7 @@
-package com.xworkz.song.Controller;
+package com.xworkz.song.controller;
 
-import com.xworkz.song.DTO.HospitalDTO;
-import com.xworkz.song.Service.HospitalService;
+import com.xworkz.song.dto.HospitalDTO;
+import com.xworkz.song.service.HospitalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

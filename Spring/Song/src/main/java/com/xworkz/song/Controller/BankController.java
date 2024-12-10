@@ -1,7 +1,7 @@
-package com.xworkz.song.Controller;
+package com.xworkz.song.controller;
 
-import com.xworkz.song.DTO.BankDTO;
-import com.xworkz.song.Service.BankService;
+import com.xworkz.song.dto.BankDTO;
+import com.xworkz.song.service.BankService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

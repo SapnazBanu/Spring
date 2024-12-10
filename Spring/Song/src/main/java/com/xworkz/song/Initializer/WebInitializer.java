@@ -1,4 +1,4 @@
-package com.xworkz.song.Initializer;
+package com.xworkz.song.initializer;
 
 import com.xworkz.song.configuration.ApplicationConfiguration;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
