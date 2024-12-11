@@ -1,5 +1,6 @@
 package com.xworkz.product.controller;
 
+import com.xworkz.product.Repository.ProductRepository;
 import com.xworkz.product.dto.ProductDTO;
 import com.xworkz.product.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,6 @@ public class ProductController {
     }
     @Autowired
     ProductService productService;
-
     @RequestMapping(value="/order",method = {RequestMethod.GET,RequestMethod.POST})
     public String productController(ProductDTO productDTO, Model model){
         System.out.println("product controller method");
