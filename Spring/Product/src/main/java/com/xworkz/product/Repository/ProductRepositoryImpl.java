@@ -15,6 +15,6 @@ public class ProductRepositoryImpl implements ProductRepository{
     public boolean save(ProductDTO productDTO) {
         System.out.println("running save in ProductRepository");
         System.err.println("Should connect to DB");
-        return false;
+        return true;
     }
 }

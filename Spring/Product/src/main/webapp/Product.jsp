@@ -1,19 +1,21 @@
 <%@ page isELIgnored="false" %>
-<!DOCTYPE html>
+<!DOC TYPE html>
 <html lang="en">
 <head>
  <meta charset="UTF-8">
  <title>Product Application</title>
 </head>
 <body>
-${Successmessage}
+
+${msgs}
 ${msg}
+${message}
 <form action="order" method="post">
   <pre>
     Product Name<input type="text" name="name" value="${message.name}">
     Product Type<select name="type" value="${message.type}">
     <option value="select">--select--</option>
-    <option value="kitchen Appliances">Kitchen Appliences</option>
+    <option value="kitchen Appliances">Kitchen Appliances</option>
     <option value="electronic Devices">Electronic Devices</option>
     <option value="laboratory Devices">Laboratory Devices</option>
     <option value="Stationary">Stationary</option>

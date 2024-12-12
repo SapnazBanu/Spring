@@ -23,7 +23,7 @@ public class ProductController {
         System.out.println("product controller method");
         if(productService.validSave(productDTO)){
             System.out.println("product order successful");
-           model.addAttribute("Successmessage","Your Order is Success!!");
+           model.addAttribute("msgs","Your Order is Success!!");
        }
         else {
            System.err.println("order cancel");
